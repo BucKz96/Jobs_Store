@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Inscription - Jobs_Store</title>
+    <!-- Styles CSS (peuvent être inchangés) -->
+    <style>
+        /* ... Styles CSS existants ... */
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Inscription</h1>
+        <!-- Liens de retour ou autres éléments de navigation peuvent être ajoutés ici -->
+    </header>
+    <div class="container">
+        <h2>Formulaire d'inscription</h2>
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit">S'inscrire</button>
+        </form>
+    </div>
+</body>
+
+</html>

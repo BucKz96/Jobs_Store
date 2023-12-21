@@ -1,3 +1,7 @@
 from django.contrib import admin
+from .models import UserProfile
 
-# Register your models here.
+@admin.register(UserProfile)
+class UserProfileAdmin(admin.ModelAdmin):
+    # Vous pouvez personnaliser l'affichage ou l'édition des champs ici si nécessaire
+    pass

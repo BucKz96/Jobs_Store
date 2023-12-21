@@ -1,0 +1,102 @@
+{
+    "accessibleTH": false,
+    "agence": {
+        "courriel": "Pour postuler, utiliser le lien suivant : https://candidat.pole-emploi.fr/offres/recherche/detail/166KJQV"
+    },
+    "alternance": false,
+    "appellationlibelle": "Développeur / Développeuse full-stack",
+    "codeNAF": "61.30Z",
+    "competences": [
+        {
+            "exigence": "S",
+            "libelle": "Administration de systèmes Linux (Bash)"
+        },
+        {
+            "exigence": "S",
+            "libelle": "Anglais technique"
+        },
+        {
+            "exigence": "S",
+            "libelle": "Connaissances réseaux IP (routage, pare-feu, DHCP)"
+        },
+        {
+            "exigence": "S",
+            "libelle": "Notions DevOps & déploiement Cloud (Terraform, GCP)"
+        }
+    ],
+    "contact": {
+        "coordonnees1": "9 RUE FRANCOIS TOULLEC",
+        "coordonnees2": "56100 LORIENT",
+        "coordonnees3": "Pour postuler, utiliser le lien suivant : https://candidat.pole-emploi.fr/offres/recherche/detail/166KJQV",
+        "nom": "Pôle Emploi LORIENT MARINE"
+    },
+    "dateActualisation": "2023-12-18T16:31:00.000Z",
+    "dateCreation": "2023-12-15T14:47:40.000Z",
+    "deplacementCode": "1",
+    "deplacementLibelle": "Jamais",
+    "description": "THALOS est une PME de 50 collaborateurs, basée à Plœmeur près de Lorient dans le Morbihan depuis 2001. Nous sommes créateurs de solutions digitales innovantes pour la performance opérationnelle des navires. Toutes nos solutions sont développées en interne et nous œuvrons exclusivement dans le domaine maritime. Les produits de THALOS sont déployés sur plus de 900 navires répartis dans 23 pays (75% du chiffre d'affaires réalisé à l'export).\nUne des solutions clés de Thalos est l'OceanBox. L'OceanBox est le point central de toute la connectivité à bord du navire, elle permet de gérer et sécuriser les liens d'accès à Internet, les réseaux bords et les flux de données.\nDans le cadre de la refonte de l'architecture OceanBox (migration dans le Cloud), Thalos recherche pour renforcer l'équipe OceanBox un-e développeur-euse Full Stack Python.\n\nVous intégrez une équipe de 4 personnes dédiées au développement de la solution OceanBox. Dans un environnement Linux, vous intervenez sur les missions suivantes :\n-\tDéveloppement Back-end Python 3.X (Flask & REST API, Jinja2, MySQL, Redis)\n-\tDéveloppement Front-End dans une moindre mesure\n-\tAmélioration de l'intégration continue (Git, Gitlab CI)\n-\tTest, validation et support de niveau 3 sur les fonctionnalités développées\nVous aurez aussi l'occasion d'aborder un grand nombre de sujets différents, selon votre profil et vos compétences.\n\nCompétences appréciées\n-\tAdministration de systèmes Linux (Bash)\n-\tConnaissances en réseaux IP (routage, pare-feu, DHCP, DNS, ...)\n-\tNotions DevOps et déploiements Cloud (Terraform, GCP)\n-\tAnglais technique (principalement à l'écrit pour ce projet)\n\nPoste ouvert aux candidats autodidactes qui justifieraient de réalisations / d'expérience de plus de deux ans sur le domaine. \nConnaissances en python, Développement Front-End, Git, Gitlab CI, Test, validation et support de niveau 3 sur les fonctionnalités développées indispensables.\n\nSalaire en fonction de l'expérience et chèques repas",
+    "dureeTravailLibelle": "39H Travail en journée",
+    "dureeTravailLibelleConverti": "Temps plein",
+    "entreprise": {
+        "entrepriseAdaptee": false,
+        "nom": "THALOS"
+    },
+    "experienceExige": "E",
+    "experienceLibelle": "1 an",
+    "formations": [
+        {
+            "codeFormation": "30854",
+            "domaineLibelle": "langages informatiques",
+            "exigence": "S",
+            "niveauLibelle": "Bac+3, Bac+4 ou équivalents"
+        }
+    ],
+    "id": "166KJQV",
+    "intitule": "Développeur full-stack Python (H/F)",
+    "langues": [
+        {
+            "exigence": "S",
+            "libelle": "Anglais"
+        }
+    ],
+    "lieuTravail": {
+        "codePostal": "56270",
+        "commune": "56162",
+        "latitude": 47.728765,
+        "libelle": "56 - PLOEMEUR",
+        "longitude": -3.445613
+    },
+    "natureContrat": "Contrat travail",
+    "nombrePostes": 1,
+    "offresManqueCandidats": false,
+    "origineOffre": {
+        "origine": "1",
+        "urlOrigine": "https://candidat.pole-emploi.fr/offres/recherche/detail/166KJQV"
+    },
+    "qualificationCode": "6",
+    "qualificationLibelle": "Employé qualifié",
+    "qualitesProfessionnelles": [
+        {
+            "description": "Capacité à créer, imaginer quelque chose de nouveau (nouveau produit, nouvelle solution, …).",
+            "libelle": "Faire preuve de créativité, d'inventivité"
+        },
+        {
+            "description": "Capacité à travailler et à se coordonner avec les autres au sein de l'entreprise pour réaliser les objectifs fixés.",
+            "libelle": "Travailler en équipe"
+        },
+        {
+            "description": "Capacité à réaliser des tâches en suivant avec exactitude les règles, les procédures, les instructions qui ont été fournies, sans réaliser d'erreur et à transmettre clairement des informations. Se montrer ponctuel et respectueux des règles de savoir-vivre usuelles.",
+            "libelle": "Faire preuve de rigueur et de précision"
+        }
+    ],
+    "romeCode": "M1805",
+    "romeLibelle": "Études et développement informatique",
+    "salaire": {
+        "commentaire": "Salaire en fonction expérience",
+        "complement1": "Autre"
+    },
+    "secteurActivite": "61",
+    "secteurActiviteLibelle": "Télécommunications par satellite",
+    "typeContrat": "CDI",
+    "typeContratLibelle": "Contrat à durée indéterminée"
+}

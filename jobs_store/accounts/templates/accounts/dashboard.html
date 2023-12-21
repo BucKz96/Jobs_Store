@@ -1,0 +1,94 @@
+<!-- user_dashboard.html -->
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>User Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+</head>
+
+<body>
+    <header>
+        <h1>Dashboard de {{ username }}</h1>
+        <a href="{% url 'profile' %}">Mon Profil</a>
+    </header>
+    <div class="container">
+        <div class="widget">
+            <h2>Compétences</h2>
+            <p>Django: 80%</p>
+            <p>Python: 90%</p>
+            <p>GitHub: 75%</p>
+        </div>
+        <div class="widget">
+            <h2>Offres Favorites</h2>
+            <ul>
+                <li>Offre 1 - Entreprise A</li>
+                <li>Offre 2 - Entreprise B</li>
+                <li>Offre 3 - Entreprise C</li>
+            </ul>
+        </div>
+        <div class="widget">
+            <h2>Graphique par Intitulé d'Offres</h2>
+            <canvas id="offresParIntituleChart" width="400" height="200"></canvas>
+        </div>
+
+        <div class="widget">
+            <h2>Graphique par Région</h2>
+            <canvas id="offresParRegionChart" width="400" height="200"></canvas>
+        </div>
+
+        <script>
+            var ctxIntitule = document.getElementById('offresParIntituleChart').getContext('2d');
+            var ctxRegion = document.getElementById('offresParRegionChart').getContext('2d');
+
+            var dataIntitule = {
+                labels: {{ offres_par_intitule.keys | safe }},
+            datasets: [{
+                label: 'Nombre d\'offres par Intitulé',
+                data: {{ offres_par_intitule.values | safe }},
+                backgroundColor: 'rgba(54, 162, 235, 0.5)',
+                borderColor: 'rgba(54, 162, 235, 1)',
+                borderWidth: 1
+                }]
+            };
+
+            var dataRegion = {
+                labels: {{ offres_par_region.keys | safe }},
+            datasets: [{
+                label: 'Nombre d\'offres par Région',
+                data: {{ offres_par_region.values | safe }},
+                backgroundColor: 'rgba(255, 99, 132, 0.5)',
+                borderColor: 'rgba(255, 99, 132, 1)',
+                borderWidth: 1
+                }]
+            };
+
+            var options = {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            };
+
+            var chartIntitule = new Chart(ctxIntitule, {
+                type: 'bar',
+                data: dataIntitule,
+                options: options
+            });
+
+            var chartRegion = new Chart(ctxRegion, {
+                type: 'bar',
+                data: dataRegion,
+                options: options
+            });
+        </script>
+    </div>
+</body>
+
+</html>

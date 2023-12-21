@@ -1,0 +1,61 @@
+/* styles.css */
+
+/* Reset des marges et des paddings */
+body,
+h1,
+h2,
+ul,
+li,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style général du body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* En-tête */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Conteneur principal */
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+/* Styles des widgets */
+.widget {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+    min-width: 250px;
+}
+
+/* Styles pour les listes ul */
+.widget ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Styles spécifiques pour les compétences */
+.widget h2 {
+    margin-bottom: 10px;
+}
+
+/* Autres styles spécifiques selon vos besoins */
